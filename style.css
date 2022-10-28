@@ -1,0 +1,69 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#board {
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(40, 46, 69);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.home-guest {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: -60px;
+
+}
+
+.number {
+    font-family: myFirstFont;
+    font-size: 200px;
+    text-align: right;
+    color: #F94F6D;
+
+}
+
+.score-background {
+    background-color: #080001;
+    width: 330px;
+    height: 200px;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-points {
+    font-family: myFirstFont;
+    margin-top: 15px;
+    padding: 20px 25px;
+    font-size: 30px;
+    border-radius: 10%;
+    background-color: rgb(40, 46, 69);
+    color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#btn-reset {
+    padding: 15px 40px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <div id="board">
+        <div>
+            <h1 class="home-guest">HOME</h1>
+            <div class="score-background">
+                <h1 class="number" id="score-home">0</h1>
+            </div>
+            <div class="btn-row">            
+                <button id="btn-points" onclick="plusOne()">+1</button>
+                <button id="btn-points" onclick="plusTwo()">+2</button>
+                <button id="btn-points" onclick="plusThree()">+3</button>
+                
+            </div>
+            <div class="btn-row">            
+                <button id="btn-points" onclick="minusOne()">-1</button>
+                <button id="btn-points" onclick="minusTwo()">-2</button>
+                <button id="btn-points" onclick="minusThree()">-3</button>
+                
+            </div>
+        </div>
+        <div id="end">
+            <button id="btn-reset" onclick="reset()">Reset</button>
+        </div>
+        <div>
+            <h1 class="home-guest">GUEST</h1>
+            <div class="score-background">
+                <h1 class="number" id="score-guest">0</h1>
+            </div>
+            <div class="btn-row">            
+                <button id="btn-points" onclick="plusOneGuest()">+1</button>
+                <button id="btn-points" onclick="plusTwoGuest()">+2</button>
+                <button id="btn-points" onclick="plusThreeGuest()">+3</button>
+            </div>
+            <div class="btn-row">            
+                <button id="btn-points" onclick="minusOneGuest()">-1</button>
+                <button id="btn-points" onclick="minusTwoGuest()">-2</button>
+                <button id="btn-points" onclick="minusThreeGuest()">-3</button>  
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>
